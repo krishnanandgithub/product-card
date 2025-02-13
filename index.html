@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Card</title>
+    <style>
+      * {
+        /* background-color: #f7f8f9; */
+        font-family: sans-serif;
+        margin: 0px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        box-sizing: border-box;
+        /* word-spacing: 2px; */
+      }
+      section {
+        margin: 0px auto;
+        width: 60%;
+        background-color: #ffffff;
+        padding: 50px;
+      }
+      h1 {
+        color: #2f4468;
+        font-size: 40px;
+        background-color: #ffffff;
+      }
+
+      cite {
+        background-color: #ffffff;
+      }
+      .main-container {
+        margin: 50px auto;
+        width: 100%;
+        background-color: #08df76;
+        padding: 50px;
+      }
+      .card {
+        width: 80%;
+        background-color: #f7f8f9;
+        margin: 2% 5% 2% 15%;
+        padding: 20px;
+        height: 650px;
+        border-radius: 10px;
+      }
+
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: hsl(0, 85%, 8%);
+      }
+      .info {
+        float: right;
+        width: 50%;
+        padding: 40px 20px 40px 0px;
+        /* background-color: red; */
+      }
+      .muted {
+        color: gray;
+      }
+      .price {
+        font-size: 25px;
+        color: red;
+        font-weight: 500;
+      }
+      .value {
+        font-size: 60px;
+        color: red;
+        font-weight: 500;
+      }
+      .color-options {
+        width: 160px;
+        height: 40px;
+        margin: 30px 0px;
+      }
+      .color-choice {
+        height: 40px;
+        width: 40px;
+        float: left;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: #16c47f;
+      }
+      .list {
+        padding: 15px;
+        color: rgb(77, 69, 69);
+      }
+      .button {
+        height: 50px;
+        width: 200px;
+        background-color: rgba(251, 66, 66, 0.927);
+        color: white;
+        border-radius: 7px;
+        box-shadow: 1px 1px 10px gray;
+        padding: 15px 30px 15px 40px;
+        margin-top: 20px;
+      }
+      .pic {
+        margin-right: 200px;
+        height: 300px;
+      }
+      .fig {
+        display: inline-block;
+        padding-right: 50px;
+        width: 50%;
+        background-color: aqua;
+      }
+      .floating {
+        margin: 100px 100px 100px 75px;
+        float: left;
+        height: 500px;
+        width: 300px;
+        padding: 0px;
+        background-color: #f7f8f9;
+        box-shadow: 5px 5px 20px gray;
+        border-radius: 10px;
+      }
+      .item-pic {
+        width: 100%;
+        height: 90%;
+        border-radius: 10px 10px 0px 0px;
+        background-image: radial-gradient(
+          #c7fb57 20%,
+          #a6ec10 50%,
+          #a9e232 100%
+        );
+      }
+      .fruit {
+        float: left;
+        height: 350px;
+        margin: 50px 50px 0px 0px;
+        padding: 0px;
+  
+
+        /* background-color: #a9e232; */
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>11 Product Cards Design</h1>
+      <cite>Last Updated on: Feb 13, 2025 by me</cite>
+      <div class="main-container">
+        <div class="floating">
+          <img
+            class="fruit"
+            src="images/apple-png-removebg-preview.png"
+            alt=""
+          />
+          <div class="item-pic"></div>
+          <div class="item-choice"></div>
+        </div>
+        <div class="card">
+          <div class="info">
+            <h2>Delicious Apples</h2>
+            <p class="muted">COD: 45999</p>
+            <p style="margin: 30px 0px">
+              <span class="price">R$</span><span class="value">&nbsp7.93</span>
+            </p>
+            <p class="muted">SELECT A COLOR</p>
+            <div class="color-options">
+              <div class="color-choice">G</div>
+              <div class="color-choice">Y</div>
+              <div class="color-choice">O</div>
+              <div class="color-choice">R</div>
+            </div>
+            <p class="muted">BENEFITS</p>
+            <ul class="list">
+              <li>Apples are nutritious</li>
+              <li>Apple may be good for weight loss</li>
+              <li>Apple may be good for bone health</li>
+              <li>They're linked to a lowest risk of diabetes</li>
+            </ul>
+            <div class="button">ADD TO CART</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
