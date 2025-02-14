@@ -69,15 +69,31 @@
         font-weight: 500;
       }
       .color-options {
-        height: 5vh;
+        height: 6vh;
+        width: 70%;
         margin: 20px 0px;
+        padding: 3px 6px;
+        /* background-color: red; */
       }
       .color-choice {
-        height: 5vh;
-        margin: 0px 5px;
         float: left;
+        height: 100%;
+        width: 25%;
+        padding: 2px;
       }
       #selected-image-1 {
+        border-radius: 5px;
+        border: 1.5px solid rgba(0, 0, 0, 0.3);
+      }
+      #selected-image-2:hover {
+        border-radius: 5px;
+        border: 1.5px solid rgba(0, 0, 0, 0.3);
+      }
+      #selected-image-3:hover {
+        border-radius: 5px;
+        border: 1.5px solid rgba(0, 0, 0, 0.3);
+      }
+      #selected-image-4:hover {
         border-radius: 5px;
         border: 1.5px solid rgba(0, 0, 0, 0.3);
       }
@@ -92,7 +108,7 @@
         display: block;
         height: 5vh;
         width: 60%;
-        background-color: rgba(251, 66, 66, 0.927);
+        background-color: red;
         color: white;
         border-radius: 7px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
@@ -131,16 +147,16 @@
           #88c503 100%
         );
       }
-
       .fruit {
         float: left;
         height: 350px;
         margin: 50px 50px 0px -60px;
-        padding: 0px;
       }
       .varieties {
         display: inline-block;
-        height: 50px;
+        height: 100%;
+        width: 100%;
+        padding: 3px;
       }
       .item-choice {
         padding: 5px 10px;
@@ -160,7 +176,14 @@
         border: 1px solid rgba(0, 0, 0, 0.5);
         border-radius: 5px;
         padding: 3px;
-        /* box-shadow: 2px 2px 5px black; */
+      }
+      a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
       }
     </style>
   </head>
@@ -171,20 +194,28 @@
       <div class="main-container">
         <div class="floating">
           <div class="item-pic">
-            <img class="fruit" src="images/image.png" alt="" />
+            <a href="#"><img class="fruit" src="images/image.png" alt="" /></a>
           </div>
           <div class="item-choice">
             <div class="product-image">
-              <img src="images/type-1.jpg" alt="" class="product" />
+              <a href="#"
+                ><img src="images/type-1.jpg" alt="" class="product"
+              /></a>
             </div>
             <div class="product-image">
-              <img src="images/type-2.jpg" alt="" class="product" />
+              <a href="#"
+                ><img src="images/type-2.jpg" alt="" class="product"
+              /></a>
             </div>
             <div class="product-image">
-              <img src="images/type-3.jpg" alt="" class="product" />
+              <a href="#"
+                ><img src="images/type-3.jpg" alt="" class="product"
+              /></a>
             </div>
             <div class="product-image">
-              <img src="images/type-4.jpg" alt="" class="product" />
+              <a href="#"
+                ><img src="images/type-4.jpg" alt="" class="product"
+              /></a>
             </div>
           </div>
         </div>
@@ -198,21 +229,40 @@
             <p class="muted">SELECT A COLOR</p>
             <div class="color-options">
               <div class="color-choice">
-                <img
-                  src="images/green-apple.jpg"
-                  alt=""
-                  class="varieties"
-                  id="selected-image-1"
-                />
+                <a href="#">
+                  <img
+                    src="images/green-apple.jpg"
+                    alt=""
+                    class="varieties"
+                    id="selected-image-1"
+                /></a>
               </div>
               <div class="color-choice">
-                <img src="images/yellow-apple.jpg" alt="" class="varieties" />
+                <a href="#">
+                  <img
+                    src="images/yellow-apple.jpg"
+                    alt=""
+                    class="varieties"
+                    id="selected-image-2"
+                /></a>
               </div>
               <div class="color-choice">
-                <img src="images/orange-apple.jpg" alt="" class="varieties" />
+                <a href="#"
+                  ><img
+                    src="images/orange-apple.jpg"
+                    alt=""
+                    class="varieties"
+                    id="selected-image-3"
+                /></a>
               </div>
               <div class="color-choice">
-                <img src="images/red-apple.jpg" alt="" class="varieties" />
+                <a href="#"
+                  ><img
+                    src="images/red-apple.jpg"
+                    alt=""
+                    class="varieties"
+                    id="selected-image-4"
+                /></a>
               </div>
             </div>
             <p class="muted">BENEFITS</p>
